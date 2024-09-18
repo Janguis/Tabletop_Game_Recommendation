@@ -1,8 +1,8 @@
 # Structure of Board Game Recommender file
 
-# Imports & Functions
+## Imports & Functions
 
-# Ranked BGG Board Games
+## Ranked BGG Board Games
 This section explores the ranked game data which can be directly downloaded from Board Game Geek for the purposes of identifying which games to obtain further data for.
 
 It explores the values and distributions of:
@@ -12,7 +12,7 @@ It explores the values and distributions of:
 
 It also looks at the different versions, editions, expansions and accessories present in the data
 
-# BGG API Board Game Data
+## BGG API Board Game Data
 This section is focused on filtering the games from the ranked BGG data, using game id's to then define which data to collect from the BGG servers through their API. 
 Then explore, clean, and feature engineer this data to prepare it for processing by the count vectoriser
 
@@ -21,7 +21,7 @@ The filtering is necessary to reduce the amount of downloaded game data, the obj
 - at least 100 ratings
 - exclude game expansions, just include base games
 
-# Board Game Recommendation
+## Board Game Recommendation
 This section utilizes the processed data to create a similarity score matrix between all games, from which a ranked list of the most similar games from a single game input can be provided
 
 A 'bag of words' is created based on the game category, mechanism, game designer, and publisher.
