@@ -19,7 +19,7 @@ Then explore, clean, and feature engineer this data to prepare it for processing
 The filtering is necessary to reduce the amount of downloaded game data, the objectives of the filtering were to include games with:
 - an average rating of 7 or above
 - at least 100 ratings
-- exclude game expansions, just include base games
+- no game expansions
 
 ## Board Game Recommendation
 This section utilizes the processed data to create a similarity score matrix between all games, from which a ranked list of the most similar games from a single game input can be provided.
