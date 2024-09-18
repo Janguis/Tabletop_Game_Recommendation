@@ -1,8 +1,6 @@
 # Structure of Board Game Recommender file
 
-# Imports
-
-# Functions
+# Imports & Functions
 
 # Ranked BGG Board Games
 This section explores the ranked game data which can be directly downloaded from Board Game Geek for the purposes of identifying which games to obtain further data for.
