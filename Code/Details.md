@@ -1,4 +1,4 @@
-# Structure of Board Game Recommender file
+# Structure of Board Game Recommender code
 
 ## Imports & Functions
 
