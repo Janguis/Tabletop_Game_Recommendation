@@ -22,7 +22,7 @@ The filtering is necessary to reduce the amount of downloaded game data, the obj
 - no game expansions
 
 ## Board Game Recommendation
-This section utilizes the processed data to create a similarity score matrix between all games, from which a ranked list of the most similar games from a single game input can be provided.
+This section utilizes the processed data to create a similarity score matrix between all games. This matrix is then used as source to search and then rank the most similar games for a single game input.
 
 A 'bag of words' is created based on the game category, mechanism, game designer, and publisher.
 This bag of words is used to create a matrix of token counts (count vectoriser).
