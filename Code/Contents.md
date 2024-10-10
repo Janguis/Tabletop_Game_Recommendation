@@ -33,7 +33,7 @@ Values were updated based on online research of the games properties, or by taki
 ## 5. BGG Data Feature Engineering
 This prepares the dataset to generate a recommendation by creating and formatting a bag of words per game, which contains the key terms from each game's category, mechanism, game designer, and publisher.
 
-## 6.6 Tabletop Game Recommendation
+## 6. Tabletop Game Recommendation
 This section utilizes the processed data to create a similarity score matrix between all games. This matrix is then used as source to search and then rank the most similar games for a single game input.
 
 Method:
