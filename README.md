@@ -16,4 +16,17 @@ The functional code is in .ipynb format and can be accessed using Jupiter Notebo
 ### Data
 This folder contains all the data used in the project.
 The raw data is extracted from Board Game Geek website, in the form of a downloadable .csv file and from their public server which was accessed through an API.
-There is also a file describing the metadata for each of the stored .csv files
+There is also a file describing the metadata for each of the stored .csv files.
+
+
+Each code processes a data input into a data output, meaning each stage can be updated indiviudally.
+A breakdown of the required data input and code output is below:  
+
+| Data Input (.csv)  | Code file (.ipynb)  | Data Output (.csv) |
+|-----------|-----------|-----------|
+| boardgames_ranks | BGG_Ranked_Games_EDA | games_ranks_updated |
+| games_ranks_updated | BGG_Game_Data_Extraction | games_filtered |
+| games_filtered | BGG Game Data EDA | (none) |
+| games_filtered | BGG_Data_Cleaning | games_clean |
+| games_clean | BGG_Data_Feature_Engineering | games_fe |
+| games_fe | Tabletop_Game_Recommendation | (none) |
