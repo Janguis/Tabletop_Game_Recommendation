@@ -1,6 +1,6 @@
 ## Metadata
 
-### boardgames_ranks.csv
+## boardgames_ranks.csv
 This is raw data from Board Game Geek (BGG) that shows a full list of all games on their website (https://boardgamegeek.com/data_dumps/bg_ranks) and their following data:
 
 #### **id**
@@ -67,7 +67,7 @@ This is a the prefix of the game name, which attempts to group games based on a 
 ####  **name_prefix_count**  
 This is simply the count of all unique name_prefix values
 
-### games_filtered.csv
+## games_filtered.csv
 
 This is data of games from the games_ranks_updated.csv file filtered by:
 - an average rating of 7 or above
