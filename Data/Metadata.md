@@ -161,7 +161,7 @@ Iron Curtain: Central Europe, 1945-1989 - values based on similar war games
 - Digimon Card Game, One Piece Card Game, The Genius Star - no evidence found - taken an initial guess (to be revised if played) - 30 / 60 / 45
 
 #### minimum  age limit values 
-    If no minimum age limit, assume it is the maximum (21), revise values when played, or researched in more depth
+If no minimum age limit, assume it is the maximum (21), revise values when played, or researched in more depth
 
 
 ## games_fe.csv
