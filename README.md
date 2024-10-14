@@ -31,3 +31,13 @@ A breakdown of the required data input and code output is below:
 | 4 | games_filtered | BGG_Data_Cleaning | games_clean |
 | 5 | games_clean | BGG_Data_Feature_Engineering | games_fe |
 | 6 | games_fe | Tabletop_Game_Recommendation | (none) |
+
+## Further work
+- User interface (input prompts, include pictures)/ (output descriptions)
+- Calculate the similarity scores for each key term category (e.g. mechanism) and use weights to enable preferences
+- Output metrics on similarity  /  success of suggested game considering test scenarios (e.g. travelling on a plane)
+- Investigate difference between good and bad votes
+- Try to label more non-base games to enable genuine suggestion of base games (or possibly expansions in future)
+- Explore feature engineering the different labels into suitable clusteres to reduce unique label size
+- Compare with the other board game recommendation engines
+
