@@ -5,7 +5,7 @@ This is a personal project, where I developed a board game recommendation engine
 
 This is for anyone interested in exploring potential boardgames, card games, or any other physical game played on a tabletop to play, based on an existing game you already like. 
 
-This uses data from Board Game Geek, which was extracted from their public ranked board game dataset and server. I applied initial filters to restrict game recommendations to base games that have an average rating of 7/10 or higher and received at least 100 votes to ensure the recommendations are relevant and trustworthy.
+This uses data from Board Game Geek (BGG), which was extracted from their public ranked board game dataset and server. I applied initial filters to restrict game recommendations to base games that have an average rating of 7/10 or higher and received at least 100 votes to ensure the recommendations are relevant and trustworthy.
 
 ## File Manifest
 ### Code 
@@ -20,7 +20,7 @@ The raw data is extracted from Board Game Geek website, in the form of a downloa
 There is also a file describing the metadata for each of the stored .csv files.
 
 
-Each code processes a data input into a data output, meaning each stage can be updated and run indiviudally.
+Each code processes a data input into a data output, meaning each stage can be updated and run indiviudally. The order refers to the order I performed each stage of the project and can be followed if new data from BGG is utilised.
 A breakdown of the required data input and code output is below:  
 
 | Order | Data Input (.csv)  | Code file (.ipynb)  | Data Output (.csv) |
