@@ -10,9 +10,10 @@ This uses data from Board Game Geek, which was extracted using their public rank
 ## File Manifest
 ### Code 
 This folder contains all the code used in the project. 
-Each file is in .ipynb format and can be accessed using Jupiter Notebook, it contains a contents which details the order and function of each code file.
+The functional code is in .ipynb format and can be accessed using Jupiter Notebook, it also contains a contents file which details the order and function of each code file.
 
 
 ### Data
 This folder contains all the data used in the project.
 The raw data is extracted from Board Game Geek website, in the form of a downloadable .csv file and from their public server which was accessed through an API.
+There is also a file describing the metadata for each of the stored .csv files
