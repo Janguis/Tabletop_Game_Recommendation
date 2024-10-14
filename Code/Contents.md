@@ -39,4 +39,4 @@ This section utilizes the processed data to create a similarity score matrix bet
 Method:
 - The bag of words is used to create a matrix of token counts (count vectoriser).
 - These token counts can then be used in a cosine similairty calculation to generate a matrix of similairity scores between all games.
-- Finally an input of a game can then be taken to generate a ranked list of the most similar games , based on the similarity matrix.
+- Finally an input of a game can then be taken to generate a ranked list of the most similar games , based on the created similarity matrix.
