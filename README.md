@@ -10,7 +10,8 @@ This uses data from Board Game Geek, which was extracted using their public rank
 ## File Manifest
 ### Code 
 This folder contains all the code used in the project. 
-The functional code is in .ipynb format and can be accessed using Jupiter Notebook, it also contains a contents file which details the order and function of each code file.
+The functional code is in .ipynb format and can be accessed using Jupiter Notebook, it also contains a contents file which details the order and function of each code file. 
+
 
 
 ### Data
@@ -19,14 +20,14 @@ The raw data is extracted from Board Game Geek website, in the form of a downloa
 There is also a file describing the metadata for each of the stored .csv files.
 
 
-Each code processes a data input into a data output, meaning each stage can be updated indiviudally.
+Each code processes a data input into a data output, meaning each stage can be updated and run indiviudally.
 A breakdown of the required data input and code output is below:  
 
-| Data Input (.csv)  | Code file (.ipynb)  | Data Output (.csv) |
-|-----------|-----------|-----------|
-| boardgames_ranks | BGG_Ranked_Games_EDA | games_ranks_updated |
-| games_ranks_updated | BGG_Game_Data_Extraction | games_filtered |
-| games_filtered | BGG Game Data EDA | (none) |
-| games_filtered | BGG_Data_Cleaning | games_clean |
-| games_clean | BGG_Data_Feature_Engineering | games_fe |
-| games_fe | Tabletop_Game_Recommendation | (none) |
+| Order | Data Input (.csv)  | Code file (.ipynb)  | Data Output (.csv) |
+|-----------|-----------|-----------|-----------|
+| 1 | boardgames_ranks | BGG_Ranked_Games_EDA | games_ranks_updated |
+| 2 | games_ranks_updated | BGG_Game_Data_Extraction | games_filtered |
+| 3 | games_filtered | BGG Game Data EDA | (none) |
+| 4 | games_filtered | BGG_Data_Cleaning | games_clean |
+| 5 | games_clean | BGG_Data_Feature_Engineering | games_fe |
+| 6 | games_fe | Tabletop_Game_Recommendation | (none) |
