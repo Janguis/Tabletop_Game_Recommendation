@@ -7,4 +7,11 @@ This is for anyone interested in exploring potential boardgames, card games, or 
 
 This uses data from Board Game Geek, which was extracted using their public ranked board game dataset and API. I applied initial filters to restrict game recommendations to base games that have an average rating of 7/10 or higher and received at least 100 votes to ensure the recommendations are relevant and trustworthy.
 
+## File Manifest
+### Code 
+This folder contains all the code used in the project which is in .ipynb format and can be accessed using Jupiter Notebook, it contains a contents which details the order and function of each code file.
 
+
+## Data
+This folder contains all the data used in the project.
+The raw data is extracted from Board Game Geek website, in the form of a downloadable .csv file and from their public server which was accessed through an API.
