@@ -140,10 +140,10 @@ This is the URL of the API server used to access the source of data from the Boa
 This is a cleaned version of games_filtered.csv which updates:
 
 #### complexity values 
-    missing values updated based on average from previous similar entries of game series  
+Missing values updated based on average from previous similar entries of game series  
 
 #### player number values 
-    updated first based on BGG or publisher website, then game box (if shown), then based on BGG community
+Updated first based on BGG or publisher website, then game box (if shown), then based on BGG community
 
 #### play time values
 Rules on revised values for playtime
