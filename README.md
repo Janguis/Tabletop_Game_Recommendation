@@ -33,7 +33,7 @@ A breakdown of the required data input and code output is below:
 | 6 | games_fe | Tabletop_Game_Recommendation | (none) |
 
 ## Further work
-- User interface (input prompts, include pictures)/ (output descriptions)
+- User interface (input prompts, include pictures & possibly descriptions)
 - Calculate the similarity scores for each key term category (e.g. mechanism) and use weights to enable preferences
 - Output metrics on similarity  /  success of suggested game considering test scenarios (e.g. travelling on a plane)
 - Investigate difference between good and bad votes
