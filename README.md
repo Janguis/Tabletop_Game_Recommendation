@@ -1,4 +1,5 @@
 # Tabletop Game Recommendation Engine
+Version 1.1
 
 ## Overview
 This is a personal project, where I developed a board game recommendation engine using content-based filtering. This project was created to enhance my skills in ETL, EDA, and text processing, as well as providing a recommendation engine for exploration of new table top games to play.
@@ -16,6 +17,9 @@ The functional code is in .ipynb format and can be accessed using Jupiter Notebo
 This folder contains all the data used in the project.
 The raw data is extracted from Board Game Geek website, in the form of a downloadable .csv file and from their public server which was accessed through an API.
 There is also a file describing the metadata for each of the stored .csv files.  
+
+
+Data saved from the BGG website was downloaded on 27/06/2024.
 
 ## How to use
 There are separate code files, each performing a stage of the project, which can be run in Jupiter Notebook.  
