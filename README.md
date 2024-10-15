@@ -12,15 +12,14 @@ This uses data from Board Game Geek (BGG), which was extracted from their public
 This folder contains all the code used in the project. 
 The functional code is in .ipynb format and can be accessed using Jupiter Notebook, it also contains a contents file which details the order and function of each code file. 
 
-
-
 ### Data
 This folder contains all the data used in the project.
 The raw data is extracted from Board Game Geek website, in the form of a downloadable .csv file and from their public server which was accessed through an API.
-There is also a file describing the metadata for each of the stored .csv files.
+There is also a file describing the metadata for each of the stored .csv files.  
 
-
-Each code processes a data input into a data output, meaning each stage can be updated and run indiviudally. The order refers to the order I performed each stage of the project and can be followed if new data from BGG is utilised.
+## How to use
+There are separate code files, each performing a stage of the project, which can be run in Jupiter Notebook. Each code file imports a specific .csv file (which could be created from a previous stage) and can be updated and run indiviudally.  
+The order refers to the order I performed each stage of the project and can be followed if new data from BGG is utilised.
 A breakdown of the required data input and code output is below:  
 
 | Order | Data Input (.csv)  | Code file (.ipynb)  | Data Output (.csv) |
@@ -31,6 +30,14 @@ A breakdown of the required data input and code output is below:
 | 4 | games_filtered | BGG_Data_Cleaning | games_clean |
 | 5 | games_clean | BGG_Data_Feature_Engineering | games_fe |
 | 6 | games_fe | Tabletop_Game_Recommendation | (none) |
+
+## Interesting Findings
+- 155634 games on BGG website, and include ancient games such as Senet (about 3000 BCE)
+- Original ranked dataset from BGG includes game accessories and future games up to 2028
+- 1278 versions of Monopoly exist
+- Extreme values – 35 games had +99 max players
+- Average rating for games with >=100 ratings is 6.9 / 10
+- Only 17% of games have an overall rank
 
 ## Further work
 - User interface (input prompts, include pictures & possibly descriptions)
