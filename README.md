@@ -18,7 +18,8 @@ The raw data is extracted from Board Game Geek website, in the form of a downloa
 There is also a file describing the metadata for each of the stored .csv files.  
 
 ## How to use
-There are separate code files, each performing a stage of the project, which can be run in Jupiter Notebook. Each code file imports a specific .csv file (which could be created from a previous stage) and can be updated and run indiviudally.  
+There are separate code files, each performing a stage of the project, which can be run in Jupiter Notebook.  
+Each code file imports a specific .csv file (which could be created from a previous stage) and can be updated and run individually.  
 The order refers to the order I performed each stage of the project and can be followed if new data from BGG is utilised.
 A breakdown of the required data input and code output is below:  
 
