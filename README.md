@@ -21,7 +21,7 @@ There is also a file describing the metadata for each of the stored .csv files.
 There are separate code files, each performing a stage of the project, which can be run in Jupiter Notebook.  
 
 
-Each code file imports a specific .csv file which can be updated and run individually. 
+Each code file reads a specific .csv file which will need to be saved locally in the same folder as the code, and can be updated and run individually. 
 
 
 The order refers to the order I performed each stage of the project and can be followed if new data from BGG is utilised.
