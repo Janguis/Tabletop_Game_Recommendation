@@ -1,5 +1,5 @@
 # Tabletop Game Recommendation Engine
-Version 1.1
+Version 1.2
 
 ## Overview
 This is a personal project, where I developed a board game recommendation engine using content-based filtering. This project was created to enhance my skills in ETL, EDA, and text processing, as well as providing a recommendation engine for exploration of new table top games to play.
@@ -49,7 +49,6 @@ A breakdown of the required data input and code output is below:
 - Only 17% of games have an overall rank
 
 ## Further work
-- User interface (input prompts, include pictures & possibly descriptions)
 - Calculate the similarity scores for each key term category (e.g. mechanism) and use weights to enable preferences
 - Output metrics on similarity  /  success of suggested game considering test scenarios (e.g. travelling on a plane)
 - Investigate difference between good and bad votes
